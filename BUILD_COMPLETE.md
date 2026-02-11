@@ -1,4 +1,4 @@
-# ✅ Build Complete: SQL Query Language in Rust
+#  Build Complete: SQL Query Language in Rust
 
 ## Summary
 
@@ -14,7 +14,7 @@ Delivered a fully functional **SQL-like query engine in Rust** with ~800 LOC (pe
 - **Executor** (180 LOC) - Evaluates queries against in-memory data
 - **Tests** (258 LOC) - 8+ unit tests + demo queries
 
-### Supported SQL Features ✅
+### Supported SQL Features 
 - `SELECT` with column projection and `*` wildcard
 - `WHERE` with comparisons (=, !=, <, >, <=, >=) and boolean logic (AND/OR)
 - `JOIN` with ON conditions
@@ -22,7 +22,7 @@ Delivered a fully functional **SQL-like query engine in Rust** with ~800 LOC (pe
 - `ORDER BY` with ASC/DESC
 - `LIMIT` for result truncation
 
-### Data Types ✅
+### Data Types 
 - Int (i64)
 - Float (f64)
 - String
@@ -153,7 +153,7 @@ Both demonstrate that **compiler fundamentals apply beyond language compilation*
 |-----------|-----|
 | lib.rs | 553 |
 | main.rs | 250 |
-| **Total Rust** | **803** ✓ |
+| **Total Rust** | **803**  |
 | DESIGN.md | 460 |
 | EXAMPLES.md | 282 |
 | PROJECT.md | 194 |
@@ -167,11 +167,11 @@ Both demonstrate that **compiler fundamentals apply beyond language compilation*
 ## Ready to Use
 
 The query engine is:
-- ✅ **Complete** - All specified features implemented
-- ✅ **Tested** - Unit + integration tests pass
-- ✅ **Documented** - Architecture + usage examples
-- ✅ **Production-ready pattern** - Clean architecture, extensible design
-- ✅ **Educational** - Learn compiler/parser techniques
+-  **Complete** - All specified features implemented
+-  **Tested** - Unit + integration tests pass
+-  **Documented** - Architecture + usage examples
+-  **Production-ready pattern** - Clean architecture, extensible design
+-  **Educational** - Learn compiler/parser techniques
 
 Can be used as:
 - Standalone query engine for in-memory data

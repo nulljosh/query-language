@@ -1,6 +1,6 @@
 # Query Language - Project Summary
 
-## ✅ Completed
+##  Completed
 
 A full SQL-like query engine in Rust with ~800 LOC (very close to 700 target).
 
@@ -25,34 +25,34 @@ A full SQL-like query engine in Rust with ~800 LOC (very close to 700 target).
 | Parser | 250 | Recursive descent parser |
 | Executor | 180 | Query execution engine |
 | Demo/Tests | 258 | 8 demo queries + 8 unit tests |
-| **Total** | **803** | ~700 target ✓ |
+| **Total** | **803** | ~700 target  |
 
 ## Features Implemented
 
 ### Parser
-- ✅ SELECT with column list or `*`
-- ✅ FROM single table
-- ✅ WHERE with operators (=, !=, <, >, <=, >=)
-- ✅ WHERE with boolean logic (AND, OR)
-- ✅ JOIN with ON condition
-- ✅ GROUP BY with column list
-- ✅ ORDER BY with ASC/DESC
-- ✅ LIMIT with number
+-  SELECT with column list or `*`
+-  FROM single table
+-  WHERE with operators (=, !=, <, >, <=, >=)
+-  WHERE with boolean logic (AND, OR)
+-  JOIN with ON condition
+-  GROUP BY with column list
+-  ORDER BY with ASC/DESC
+-  LIMIT with number
 
 ### Executor
-- ✅ WHERE filtering with expression evaluation
-- ✅ JOIN with cartesian product + ON condition
-- ✅ GROUP BY row grouping
-- ✅ ORDER BY sorting (multi-column capable)
-- ✅ SELECT projection to selected columns
-- ✅ LIMIT result truncation
+-  WHERE filtering with expression evaluation
+-  JOIN with cartesian product + ON condition
+-  GROUP BY row grouping
+-  ORDER BY sorting (multi-column capable)
+-  SELECT projection to selected columns
+-  LIMIT result truncation
 
 ### Data Types
-- ✅ Int (i64)
-- ✅ Float (f64)
-- ✅ String
-- ✅ Bool
-- ✅ Null
+-  Int (i64)
+-  Float (f64)
+-  String
+-  Bool
+-  Null
 
 ## Demo Queries (in main.rs)
 
