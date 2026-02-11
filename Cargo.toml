@@ -1,4 +1,15 @@
 [package]
-name = "querylang"
+name = "query-language"
 version = "0.1.0"
 edition = "2021"
+
+[dependencies]
+regex = "1"
+
+[[bin]]
+name = "query-language"
+path = "src/main.rs"
+
+[lib]
+name = "query_language"
+path = "src/lib.rs"
